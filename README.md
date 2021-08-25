@@ -10,7 +10,7 @@ This repo provides a bare-bones way to clone an app that is ready to deploy to a
 3.  Run `npm run dev`, **localhost:8080** will open up in your default browser
 
 ## Verify production code
-1. Run `webpack -p`
+1. Run `npx webpack -p`
 2. Run `node server.js`, and visit **localhost:8080**, voila your code is ready for dokku now.
 
 ## Prepare server for deployment
